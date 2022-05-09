@@ -6,7 +6,6 @@ let pic = ['https://static.wixstatic.com/media/84770f_6197f6bd0a9c41788f15876c8d
     function setImage(count){
         document.getElementById("main1").style.backgroundImage = `url(${pic[count]})`;
         document.getElementById("main1").style.backgroundSize = "cover";
-        console.log(count);
     }
     
     function show(){
