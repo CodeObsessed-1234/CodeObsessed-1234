@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym HomePage</title>
+
+    <link rel="stylesheet" href="./gym.css">
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <a href="./index.html" class="header-content">Home</a>
+            <a href="" class="header-content">About</a>
+            <a href="" class="header-content">Services</a>
+            <a href="" class="header-content">Our class</a>
+            <a href="" class="header-content">Book Now</a>
+            <a href="./gym_princing.html" class="header-content">Plan & Pricing</a>
+            <a href="" class="header-content">Contact</a>
+            <a href="" class="header-content left ">Login</a>
+            <a href="" class="header-content ">
+                <i class="fa fa-facebook-f" style="font-size:36px"></i></a>
+            <a href="" class="header-content ">
+                <i class="fa fa-github" style="font-size:36px"></i></a>
+            <a href="" class="header-content ">
+                <i class="fa fa-google" style="font-size:36px"></i></a>
+            <a href="" class="header-content ">
+                <i class="fa fa-linkedin-square" style="font-size:36px"></i></a>
+            <form action="" style="color: white; align-self: center; margin-left: 10px;">
+                <label for="search">
+                    Search: <input id="serach" type="search" name="search" id="search">
+                </label>
+            </form>
+        </header>
+        <main class="main">
+            <div id="main1" onmousewheel="show()">
+                <button id="left" ><</button><button  id="right">></button>
+                <div class="main-heading">
+                    <h1>LET'S<br> GET <br> MOVING </h1>
+                    <h2>Nitin's Online GYM</h2>
+                </div>
+                <div class="btn">
+                    <button class="button btn1">View Serives</button><button class="button btn2">Book Now</button>
+                </div>
+            </div>
+            <div class="main2">
+                <h2>"WHAT SEEMS IMPOSSIBLE TODAY WILL SOON BECOME YOUR WARM-UP"</h2>
+            </div>
+            <div class="main3">
+                <div class="main3-1">
+                    <img id="image" src="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fHRyYWluaW5nfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="loading">
+                </div>
+                <div class="main3-2">
+                    <h2>
+                        ABOUT ME
+                    </h2>
+                    <br>
+                    <h1>
+
+                        Nitin Dwivedi
+                    </h1>
+                    <br><br><br>
+                    <p>
+
+                        I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text”
+                        or double click me to add your own content and make changes to the font. Feel free to drag and
+                        drop me anywhere you like on your page. I’m a great place for you to tell a story and let your
+                        users know a little more about you.
+
+                        ​<br><br>
+
+                        This is a great space to write long text about your company and your services. You can use this
+                        space to go into a little more detail about your company.
+                    </p>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="footer-1">
+                <h1>Nitin Dwivedi</h1>
+                <h2>Fitness Coach</h2><br><br>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos rerum veniam ad necessitatibus esse,
+                    assumenda sequi voluptatum eligendi quas iure hic blanditiis, est sit debitis quod ullam mollitia,
+                    magni nemo. Fugit, vero. Eligendi, exercitationem praesentium. Doloribus nihil error, deserunt
+                    magnam ut officiis quia iusto soluta, cum enim quae fugiat voluptatum.</p>
+            </div>
+            <div class="footer-2">
+                <u>
+                    <h1>GET IN TOUCH</h1>
+                </u>
+                <form action="">
+                    <label for="firstName">
+                        <h2>firstName*</h2>
+                        <br> <input class="text-width" type="text" name="first" id="firstName" required>
+                    </label><br>
+
+                    <label for="lastName">
+                        <h2>lastName*</h2>
+                        <br> <input class="text-width" type="text" name="last" id="lastName" required>
+                    </label><br>
+
+                    <label for="email">
+                        <h2>Email* </h2>
+                        <br><input class="text-width" type="emial" name="email" id="email" required>
+                    </label><br>
+
+                    <label for="phone">
+                        <h2>Phone</h2> <br><input class="text-width" type="number" name="phone" id="phone">
+                    </label><br>
+
+                    <label for="area">
+                        <h2>Message</h2>
+                        <br><input class="text-width" type="textarea" name="message" id="area">
+                    </label>
+                </form>
+            </div>
+        </footer>
+        <div class="end">
+            <h2>by-NITIN DWIVEDI</h2>
+        </div>
+        <div class="movetop">
+            <button onclick="moveup()">Top</button> 
+        </div>
+    </div>
+</body>
+<script src="./index.js"></script>
+</html>
